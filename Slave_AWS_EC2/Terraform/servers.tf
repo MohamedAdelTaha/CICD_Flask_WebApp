@@ -8,5 +8,7 @@ resource "aws_instance" "web" {
   tags = {
     Name = "Slave_EC2"
   }
-
+  provisioner "local-exec" {
+    command = "./launch_ansible_script.sh ${self.public_ip}"
+  }
 }
