@@ -8,10 +8,10 @@
 
 ### More Details about this Project:
 - This Project has three Nodes:
-    1- Master node (a container in my local machine with jenkins and docker installed on it)
-    2- Two slave nodes:
-        2.1. Another docker container in my local machine.
-        2.2. An AWS EC2 instance
+    - Master node (a container in my local machine with jenkins and docker installed on it)
+    - Two slave nodes:
+        - Another docker container in my local machine.
+        - An AWS EC2 instance
 - Each slave node uses a simple flask app hosted in my github account with this [link](https://github.com/MohamedAdelTaha/Simple_Flask_App.git)
 - The flask app consists of three branches (master-dev-test), and each branch has its own Jenkins file.
 - The master branch has been deployed in the master node.
