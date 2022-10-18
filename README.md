@@ -19,16 +19,16 @@
         - simple task that echos hello from master branch.
 - The dev branch has been deployed on the slave_container_node.
     - Tasks:
-        1- echos hello from dev branch.
-        2- get the application code from my github account.
-        3- build a docker image from this app using Dockerfile inside it.
-        4- push that image to my dockerhub repo using my credentials.
-        5- run a container from this image to test the app inside that slave_container_node.
-        6- send a slack notification to my channel to clarify whether all stages have succeeded or not.
+        - echos hello from dev branch.
+        - get the application code from my github account.
+        - build a docker image from this app using Dockerfile inside it.
+        - push that image to my dockerhub repo using my credentials.
+        - run a container from this image to test the app inside that slave_container_node.
+        - send a slack notification to my channel to clarify whether all stages have succeeded or not.
 - The test branch has been deployed on the slave_ec2_node.
     - Tasks:
-        1- echos hello from test branch.
-        2- get the application code from my github account.
-        3- build a docker image from this app using Dockerfile inside it.
-        4- run a container from this image to test the app inside that aws_ec2_slave_node.
-        5- send a slack notification to my channel to clarify whether all stages have succeeded or not.
+        - echos hello from test branch.
+        - get the application code from my github account.
+        - build a docker image from this app using Dockerfile inside it.
+        - run a container from this image to test the app inside that aws_ec2_slave_node.
+        - send a slack notification to my channel to clarify whether all stages have succeeded or not.
